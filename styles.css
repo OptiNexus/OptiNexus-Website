@@ -17,7 +17,7 @@ header {
 .logo {
   display: block;
   margin: 20px auto;
-  height: 5px; /* این خط اندازه رو کوچکتر می‌کنه */
+  height: 5px;‌
 }
 
 .nav-links {
@@ -74,5 +74,6 @@ footer {
   text-align: center;
   padding: 20px;
 }
+
 
 
