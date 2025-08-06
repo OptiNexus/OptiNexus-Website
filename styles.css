@@ -1,0 +1,74 @@
+/* Base styles */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #ffffff;
+  color: #222;
+}
+
+header {
+  background-color: #003e6b; /* Siemens blue */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 40px;
+}
+
+.logo {
+  height: 60px;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 25px;
+}
+
+.nav-links li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.nav-links li a:hover {
+  color: orange;
+}
+
+.hero {
+  padding: 80px 40px;
+  background-color: #f7f7f7;
+  text-align: center;
+}
+
+.hero h1 {
+  font-size: 2.5em;
+  color: #003e6b;
+}
+
+.hero p {
+  font-size: 1.2em;
+  color: #444;
+}
+
+.cta-button {
+  margin-top: 20px;
+  display: inline-block;
+  background-color: orange;
+  color: white;
+  padding: 12px 24px;
+  text-decoration: none;
+  border-radius: 6px;
+  transition: background-color 0.3s ease;
+}
+
+.cta-button:hover {
+  background-color: #cc6600;
+}
+
+footer {
+  background-color: #003e6b;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
